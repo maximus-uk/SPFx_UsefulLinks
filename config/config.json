@@ -11,7 +11,25 @@
       ]
     }
   },
-  "externals": {},
+  "externals": {
+    "jquery": {
+      "path":"./node_modules/jquery/dist/jquery.min.js",  
+      "globalName": "jquery"
+    },  
+    "popper.js": {
+      "path":"./node_modules/popper.js/dist/popper.min.js",
+      "globalName": "popper"     
+    }, 
+    "fontawesome": {
+      "path":"./node_modules/@fortawesome/fontawesome-free/js/all.min.js",
+      "globalName": "fontawesome"     
+    },        
+    "bootstrap": {
+      "path": "./node_modules/bootstrap/dist/js/bootstrap.min.js",
+      "globalName": "bootstrap",
+      "globalDependencies": ["popper.js"]
+    }      
+  },
   "localizedResources": {
     "UsefulLinksWebPartStrings": "lib/webparts/usefulLinks/loc/{locale}.js"
   }

@@ -71,4 +71,24 @@
       display: inline-block;
     }
   }
+  .accordionToggle:after {
+    position: relative;
+    top:-20px;
+    left:-10px;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1.1em;
+    content: "\f107";
+    float: right;
+    color: white !important;
+  }
+
+  .accordionToggle.collapsed:after {
+    position: relative;
+    top:-20px;
+    left:-10px;    
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1.1em;
+    content: "\f105";
+    color: white !important;
+  }  
 }
