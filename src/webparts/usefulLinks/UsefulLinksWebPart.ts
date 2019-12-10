@@ -17,9 +17,10 @@ import UsefulLinksHTML from './UsefulLinksHTML';
 require('popper.js');
 //import 'jquery';
 import * as $ from 'jquery';
-import 'fontawesome';
+//import 'fontawesome';
 import 'bootstrap';
 import './styles/custom.css';
+//require ("././././node_modules/@fortawesome/fontawesome-free/css/all.min.css");
 
 export interface IUsefulLinksWebPartProps {
   description: string;

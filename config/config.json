@@ -19,11 +19,7 @@
     "popper.js": {
       "path":"./node_modules/popper.js/dist/popper.min.js",
       "globalName": "popper"     
-    }, 
-    "fontawesome": {
-      "path":"./node_modules/@fortawesome/fontawesome-free/js/all.min.js",
-      "globalName": "fontawesome"     
-    },        
+    },       
     "bootstrap": {
       "path": "./node_modules/bootstrap/dist/js/bootstrap.min.js",
       "globalName": "bootstrap",
