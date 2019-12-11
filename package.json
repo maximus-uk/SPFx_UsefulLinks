@@ -23,6 +23,7 @@
     "@types/webpack-env": "1.13.1",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
+    "mdbootstrap": "^4.10.1",
     "popper.js": "^1.16.0",
     "webpack": "^3.12.0"
   },

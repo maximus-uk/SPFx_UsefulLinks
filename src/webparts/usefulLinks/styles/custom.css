@@ -1,22 +1,27 @@
-.card-header{background-color:#ddddeb!important;height:80px;margin-bottom:5px;}
+.card-header{background-color:#ddddeb!important;height:50px;margin-bottom:5px;}
 .card-header:hover {background-color:#7676b8!important; text-decoration: none!important}
 .card-header:hover a h5 {color:white!important; text-decoration: none!important}
-.card-link{text-decoration:none; color:#545487!important;position:relative;top:10px}
+.card-link{text-decoration:none; color:#545487!important;position:absolute;top:10px;left:10px}
 .card-body{background-color:white!important;color:#545487!important}
 
-.accordionToggle:after {
+.accordionToggle .card-link:after {
     position: relative;
-    font-family:"Font Awesome 5 Free";
-    font-size: 1.1em;
-    content: "\f107";
+    padding: 0;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f067";
+    font-size: 1em;
     float: right;
-    color: white !important;
+    transition: .3s transform ease-in-out;
 }
 
-.accordionToggle.collapsed:after {
-    position: relative;  
-    font-family: "Font Awesome 5 Free";
-    font-size: 1.1em;
-    content: "\f105";
-    color: white !important;
+.accordionToggle .card-link .collapsed:after {
+    position: relative;
+    padding: 0;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1em;
+    font-weight:900;
+    content: "\f068";
+    float: right;
+    transform: rotate(90deg);
 }

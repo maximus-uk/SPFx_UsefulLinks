@@ -1,12 +1,12 @@
 export default class UsefulLinksHTML {
     public static templateHtml: string =  `
-    <div id="accordion">
+    <div id="accordion" role="tablist">
 
     <div class="card">
       <div class="card-header accordionToggle">
-        <a class="card-link" data-toggle="collapse" href="#collapseOne">
-          <h5>Collapsible Group Item #1</h5>
-        </a>
+        <a class="card-link" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+          <h5 class="mb-0">Collapsible Group Item #1</h5>          
+        </a>               
       </div>
       <div id="collapseOne" class="collapse" data-parent="#accordion">
         <div class="card-body">
