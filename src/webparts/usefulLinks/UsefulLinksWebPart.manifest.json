@@ -21,7 +21,9 @@
     "description": { "default": "UsefulLinks description" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description": "UsefulLinks"
+      "description": "Useful Links",
+      "EditLinks":"Links",  
+      "WebpartTitle":"Useful Links" 
     }
   }]
 }
