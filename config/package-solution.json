@@ -10,7 +10,7 @@
       "title": "useful links",
       "description": "useful-links-app-client-side-solution",
       "id": "8cb5a958-363c-4de5-8a86-6e577933fbe6",
-      "version": "1.0.0.4",
+      "version": "1.0.0.0",
       "assets": {
         "elementManifests": [
           "elements.xml"
