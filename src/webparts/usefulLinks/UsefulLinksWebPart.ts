@@ -135,7 +135,7 @@ export default class UsefulLinksWebPart extends BaseClientSideWebPart<IUsefulLin
     const linkContainer: Element = this.domElement.querySelector('#links'+cardIDName);
 
     if(linkGroup === prevLinkGroup && linkCount>0){
-      $('#links'+cardIDName).append('<a href="${item.LinkURL}" target="${item.LinkBrowse}"><div class="list-group-item">'+linkName+'</div></a>');
+      $('#Links'+linkGroupId).append('<a href="${item.LinkURL}" target="${item.LinkBrowse}"><div class="list-group-item">'+linkName+'</div></a>');
       //linkHTML = `<a href="${item.LinkURL}" target="${item.LinkBrowse}"><div class="list-group-item">${item.LinkName}</div></a>`;
       //linkContainer.innerHTML= linkHTML;
     }
@@ -155,9 +155,10 @@ public render(): void {
     <div class="usefulLinksSection">
       <div class="row linkContainer" id="usefulLinks">
         <div id="linksAccordion" style="width:100%">                        
-          <div id="teamLinks"></div>
-          <div id="buLinks"></div>
-          <div id="maxLinks"></div>
+          <div id="Links01"></div>
+          <div id="Links02"></div>
+          <div id="Links03"></div>
+          <div id="Links04"></div>
         </div>
       </div> 
     </div>`;
